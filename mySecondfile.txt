@@ -1,8 +1,2 @@
-
-
-
-
-
-git pull origi
-
 This is my second file which is created using cloud and needs to be synched with the local repository this can be done by using git pull.
+git pull origin main 
