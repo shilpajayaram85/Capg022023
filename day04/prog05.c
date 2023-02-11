@@ -97,6 +97,7 @@ int main()
 	  printf("\nStart Your Engine");
 	}
 	printf("\nThank You for using the S/W\n");
+	printf("\nHave a Safe Drive!!\n");
 	return 0;
 }
 
