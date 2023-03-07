@@ -1,0 +1,125 @@
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+File Operation:
+
+1.Opening a file
+2. Insert
+3. Delete
+4. Modify
+5. Close file
+
+
+1. fopen => Opening a file
+2. fclose => Closing a openend file
+3. fwrite, fread, fprintf, fscanf
+4. moving or positing the fileptr on a file => fseek,  
+5. ftell => Where your fileptr is place/position
+
+
+Opened file will be in main memory, that memory will have address
+to capture that address we need pointer.
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+
+
+
+
+
+*  open() and close() are lower level file functions.
+*  fopen() and fclose() are higher level file functions.
+

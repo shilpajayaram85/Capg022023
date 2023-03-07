@@ -14,7 +14,7 @@ int main()
 		heap_loc[count] = count;
 	for(count=0; count<11; count++)
 		printf("%d  ", heap_loc[count]);
-	free(heap_loc);
+//	free(heap_loc);
 
 	return EXIT_SUCCESS;
 }
