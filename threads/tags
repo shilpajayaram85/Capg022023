@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ULL	functionPtr.c	/^typedef unsigned long long ULL;$/;"	t	file:
+ULL	functionPtr_1.c	/^typedef unsigned long long ULL;$/;"	t	file:
+ULL	multithread4.c	/^typedef unsigned long long ULL;$/;"	t	file:
+display	thread1.c	/^void *display(void *ptr)$/;"	f
+findEven	functionPtr.c	/^void findEven(ULL start, ULL end)$/;"	f
+findEven	functionPtr_1.c	/^ULL findEven(ULL start, ULL end)$/;"	f
+findEven	multithread4.c	/^void findEven(ULL start, ULL end)$/;"	f
+findOdd	functionPtr.c	/^void findOdd(ULL start, ULL end)$/;"	f
+findOdd	functionPtr_1.c	/^ULL findOdd(ULL start, ULL end)$/;"	f
+findOdd	multithread4.c	/^void findOdd(void *vargs[])$/;"	f
+g	multithread3.c	/^int g = 0;$/;"	v
+mails	mythread3.c	/^int mails = 0;$/;"	v
+main	functionPtr.c	/^int main()$/;"	f
+main	functionPtr_1.c	/^int main()$/;"	f
+main	multithread2.c	/^int main()$/;"	f
+main	multithread3.c	/^int main(int argc, char **argv)$/;"	f
+main	multithread4.c	/^int main()$/;"	f
+main	mythread1.c	/^int main()$/;"	f
+main	mythread2.c	/^int main()$/;"	f
+main	mythread3.c	/^int main()$/;"	f
+main	thread1.c	/^int main()$/;"	f
+mutex	mythread3.c	/^pthread_mutex_t mutex;$/;"	v
+myThreadFun	multithread2.c	/^void *myThreadFun(void *vargp)$/;"	f
+myThreadFun	multithread3.c	/^void *myThreadFun(void *vargp)$/;"	f
+routine	mythread1.c	/^void *routine()$/;"	f
+routine	mythread3.c	/^void* routine(){$/;"	f
+routine1	mythread2.c	/^void* routine1(){$/;"	f
+routine2	mythread2.c	/^void* routine2(){$/;"	f
+sumEven	functionPtr.c	/^ULL sumEven = 0;$/;"	v
+sumEven	multithread4.c	/^ULL sumEven = 0;$/;"	v
+sumOdd	functionPtr.c	/^ULL sumOdd = 0;$/;"	v
+sumOdd	multithread4.c	/^ULL sumOdd = 0;$/;"	v
+x	mythread2.c	/^int x =2;$/;"	v

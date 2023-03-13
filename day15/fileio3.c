@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 	FILE *fptr;
 	char *fileName = argv[1];
 	char line[1024];
-	fptr=fopen(fileName,"r");
+	fptr=fopen(fileName,"w");
 
 	if(fptr == NULL)
 	{
@@ -15,14 +15,16 @@ int main(int argc, char **argv)
 		exit(EXIT_FAILURE);
 	}
 
-	printf("\nFile opened successfully\n");
+	printf("\nFile opened successfully for write operation\n");
 
-	// fscanf(fptr,"%[^\n]s",line);
+	fscanf(stdin,"%[^\n]s",line); //using fscanf we can avoid new line
 
-	while(fgets(line,1024,fptr))
-		puts(line);
+    //fgets(line,1024,stdin); //fgets will read new line too
+
+	fprintf(fptr, "%s", line);
 
 	fclose(fptr);
 	printf("\n\n");
 	return 0;
 }
+
