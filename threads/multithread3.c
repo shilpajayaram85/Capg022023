@@ -27,26 +27,15 @@ void *myThreadFun(void *vargp)
 
 int main(int argc, char **argv)
 {
-//	int i[5] = {3,5,6,7,8};
+	int i;
 	pthread_t tid;
-	int i =101;
+	
 	// Let us create three threads
-	//for (i = 0; i < 3; i++)
-		
-		//printf("\ntid address = %ld\n",(void*)&i);
-
+	
+	for (i = 0; i < 3; i++)
 		pthread_create(&tid, NULL, myThreadFun, (void *)&tid);
 
-		printf("\n1 Thread id = %ld\n",tid);
-		//pthread_exit(NULL);
-		pthread_create(&tid, NULL, myThreadFun,  (void *)&i);
-
-		printf("\n2 Thread id = %ld\n",tid);
-		//pthread_exit(NULL);
-		
-		pthread_create(&tid, NULL, myThreadFun, (void *)&i);
-		printf("\n3 Thread id = %ld\n",tid);
-		//pthread_exit(NULL);
+	pthread_exit(NULL);
 	
 	return 0;
 }
